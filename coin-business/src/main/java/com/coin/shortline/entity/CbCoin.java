@@ -9,10 +9,10 @@ import java.util.Date;
 public class CbCoin {
 
     /**
-     * 0 :监听正常交易  1:暂停交易
+     * 0 :监听正常交易  1:暂停交易  2,暂停监控
      */
     public enum Status {
-        Normal(0), Close(1);
+        Normal(0), CloseBusiness(1), Disable(2);
         private int value;
 
         private Status(int v) {
@@ -26,7 +26,7 @@ public class CbCoin {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     /**
@@ -78,7 +78,7 @@ public class CbCoin {
     private BigDecimal all_sell_threshold_rate;
 
     /**
-     * 0 :监听正常交易  1:暂停交易
+     * 0 :监听正常交易  1:暂停交易  2,暂停监控
      */
     @Column
     private Integer status;

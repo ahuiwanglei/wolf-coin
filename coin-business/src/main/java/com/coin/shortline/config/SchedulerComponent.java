@@ -24,8 +24,6 @@ public class SchedulerComponent {
     private String marketdepth;//买卖深度corn
     @Value("${scan.businessamount.cron}")
     private String businessamount;//交易量corn
-    @Value("${scan.pricetrend.coin}")
-    private String pricetrend;
 
     @Autowired
     SchedulerJobFactory schedulerJobFactory;
@@ -41,8 +39,7 @@ public class SchedulerComponent {
     public void scheduleJobs(SchedulerFactoryBean schedulerFactoryBean ) throws SchedulerException {
         Scheduler scheduler = schedulerFactoryBean.getScheduler();
         startScanMarketDepth(scheduler);
-        startScanMarketBusinessAmountBooks(scheduler);
-        startScanCoinPriceTrend(scheduler);
+        startScanMarketBusinessAmount(scheduler);
     }
 
     /**
@@ -65,7 +62,7 @@ public class SchedulerComponent {
      * @param scheduler
      * @throws SchedulerException
      */
-    public void startScanMarketBusinessAmountBooks(Scheduler scheduler) throws SchedulerException {
+    public void startScanMarketBusinessAmount(Scheduler scheduler) throws SchedulerException {
         JobDetail jobDetail = JobBuilder.newJob(ScanMarketBusinessAmountQuartz.class)
                 .withIdentity("job2", "group1").build();
         CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule(businessamount);
@@ -75,20 +72,7 @@ public class SchedulerComponent {
         scheduler.start();
     }
 
-    /**
-     * 价格曲线
-     * @param scheduler
-     * @throws SchedulerException
-     */
-    private void startScanCoinPriceTrend(Scheduler scheduler) throws SchedulerException {
-        JobDetail jobDetail = JobBuilder.newJob(ScanMarketBusinessAmountQuartz.class)
-                .withIdentity("job3", "group1").build();
-        CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule(pricetrend);
-        CronTrigger cronTrigger = TriggerBuilder.newTrigger().withIdentity("trigger3", "group1")
-                .withSchedule(scheduleBuilder).build();
-        scheduler.scheduleJob(jobDetail,cronTrigger);
-        scheduler.start();
-    }
+
 
     @PreDestroy
     public void onDestroy(){

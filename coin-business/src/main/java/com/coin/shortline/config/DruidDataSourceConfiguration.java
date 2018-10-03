@@ -39,7 +39,7 @@ public class DruidDataSourceConfiguration {
         return builder
                 .dataSource(druidDataSource())
                 .packages(CbCoin.class)
-                .persistenceUnit("discuzDB")
+                .persistenceUnit("coinDB")
                 .build();
     }
 

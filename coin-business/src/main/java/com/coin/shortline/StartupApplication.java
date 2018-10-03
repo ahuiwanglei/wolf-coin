@@ -7,8 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.coin.monitor"})
-@EnableWebMvc
+@ComponentScan(basePackages = {"com.coin.shortline"})
 @EnableCaching
 public class StartupApplication {
     public static void main(String[] args) {

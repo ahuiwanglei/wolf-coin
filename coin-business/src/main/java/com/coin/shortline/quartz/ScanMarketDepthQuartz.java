@@ -18,6 +18,7 @@ public class ScanMarketDepthQuartz implements Job{
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
         logger.info("........开始刷新市场深度...start.......");
+        marketDepthService.storeOrderBooks();
         logger.info("........市场深度刷新完成...end.......");
     }
 }
