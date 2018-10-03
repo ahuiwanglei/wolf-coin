@@ -81,7 +81,7 @@ public class MarketDepthServiceImpl implements MarketDepthService {
             logger.info("result=" + httpResponse.getStatusLine());
             if (httpResponse.getStatusLine().getStatusCode() == 200) {
                 String httpRequestStr = EntityUtils.toString(httpResponse.getEntity());
-                logger.info("获取" + symbol + "市场深度：" + httpRequestStr);
+//                logger.info("获取" + symbol + "市场深度：" + httpRequestStr);
                 JSONObject jsonObject = JSON.parseObject(httpRequestStr);
 
                 if ("true".equals(jsonObject.getString("result"))) {

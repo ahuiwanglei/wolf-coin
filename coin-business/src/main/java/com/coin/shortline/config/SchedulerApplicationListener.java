@@ -19,11 +19,11 @@ public class SchedulerApplicationListener implements ApplicationListener<Context
 
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
-        try {
-            schedulerComponent.scheduleJobs(schedulerFactoryBean);
-        } catch (SchedulerException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            schedulerComponent.scheduleJobs(schedulerFactoryBean);
+//        } catch (SchedulerException e) {
+//            e.printStackTrace();
+//        }
     }
 
 //    @Bean
