@@ -1,0 +1,144 @@
+
+body{
+    font:12px "";
+    color:#000000;
+	margin:0 auto;
+	padding:0;
+}
+#top{
+	margin:0 auto;
+	background:url(../images/logo_bg_03.jpg) repeat-x;
+}
+a{
+   outline: none;
+}
+a:active {star:expression(this.onFocus=this.blur());}
+a.select{
+	display:block;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:13px;
+	text-align:center;
+    background:url(../images/nav_1_10.png);
+	width:95px;
+    height:34px;
+	line-height:34px;
+	}
+a:hover{
+     background:url(../images/nav_1_1.png);   
+}
+.title_selected{
+   	 display:block;
+	 color:#ffffff;
+	 text-decoration:none;
+	 font-size:13px;
+	 text-align:center;
+	 background:url(../images/nav_1_1.png);
+	 width:95px;
+	 height:34px;
+	 line-height:34px;
+	 font-weight:bold;
+}
+.title{
+   	 display:block;
+	 color:#FFFFFF;
+	 text-decoration:none;
+	 font-size:13px;
+	 text-align:center;
+     background:url(../images/nav_1_10.png);
+	 width:95px;
+     height:34px;
+	 line-height:34px;
+	 outline: none;
+}
+
+.nav{
+	  font-weight:bold;
+}
+.date{
+	color:#c2e2ff;
+	text-align:right;
+	padding-right:36px;
+}
+i{
+	font-style:normal;
+	color:#c2e2ff;
+	text-align:right;
+	margin-right:34px;
+}
+span{
+	color:#ffffff;
+}
+a.admin{
+	  background:url(../images/pic_05.png) no-repeat;
+	  display:block;
+	  width:42px;
+	  color:#ffffff;
+	  padding-left:16px;
+	  height:18px;
+	  line-height:18px;
+	  text-decoration:none;
+}
+/*a.admina{width:auto!important;} */
+
+a.password{
+	  background:url(../images/p_message.png) no-repeat;
+	  display:block;
+	  width:62px;
+	  color:#ffffff;
+	  padding-left:16px;
+	  height:18px;
+	  line-height:18px;
+	  text-decoration:none;
+}
+
+a.refresh{
+	  background:url(../images/pic_03.png) no-repeat;
+	  display:block;
+	  width:42px;
+	  color:#ffffff;
+	  padding-left:16px;
+	  height:18px;
+	  line-height:18px;
+	  text-decoration:none;
+}
+a.exit{
+	 background:url(../images/exit.png) no-repeat;
+	 color:#ffffff; 
+	 display:block;
+	 width:66px;
+	 height:18px;
+	 line-height:18px;
+	 padding-left:6px;
+	 text-decoration:none;
+}
+
+
+
+a.owner{
+	 background: no-repeat;
+	 color:#ffffff; 
+	 display:block;
+	 width:62px;
+	 height:18px;
+	 line-height:18px;
+	 padding-left:24px;
+	 text-decoration:none;
+}
+
+a.exit:hover{
+    text-decoration:underline;
+    }
+a.refresh:hover{
+	 text-decoration:underline;
+    }
+a.owner:hover{
+    text-decoration:underline;
+    }
+a.chgpwd:hover{
+    text-decoration:underline;
+    }
+	/* CSS Document */
+
+td, th{}
+table{}

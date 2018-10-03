@@ -1,0 +1,126 @@
+.co1 {
+    color: #FF0000;
+}
+.co4 {
+    color: #006699;
+}
+.co5 {
+    color: #FF6600;
+}
+
+.ali {
+	text-align: right;
+	float: right;
+}
+.ali_1 {
+    text-align: right;
+    float: right;
+}
+.textinput,.textinput1,.textinput2,.textareainput{
+	border-bottom:1px solid #CCCCCC;
+	border-left:1px solid #999;
+	border-right:1px solid #CCCCCC;
+	border-top:1px solid #999;;
+    background-color: #FFFFFF;
+}
+.textinput {
+    width: 145px;
+    height: 18px;
+    line-height: 18px;
+}
+
+.textinput1 {
+    width: 180px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 2px;
+    font-size: 12px;
+    padding: 0px 3px;
+}
+
+.textinput2 {
+    width: 220px;
+}
+
+.textareainput {
+    width: 300px;
+    height: 50px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+.selinput,.selinput1{
+	height: 20px;
+    border-bottom:1px solid #CCCCCC;
+	border-left:1px solid #999;
+	border-right:1px solid #CCCCCC;
+	border-top:1px solid #999;;
+    background-color: #FFFFFF;
+}
+
+.selinput {
+    width: 149px;   
+}
+.selinput1 {
+    width: 188px;
+}
+
+.sys_bot {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.show {
+    margin: 10px;
+    height: 30px;
+    border: 1px dashed #FCCAAF;
+    background-color: #FFFAEE;
+    line-height: 30px;
+    padding-left: 10px;
+    color: #FF6600;
+}
+
+.a1 {
+    text-decoration: none;
+}
+.pad40{
+	padding-left:40px;
+}
+.te {
+    font-weight: normal
+}
+
+.loggingimg {
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin: 3px;
+}
+
+.showdiv {
+    float: left;
+}
+
+.sp_ser {
+    line-height: 25px;
+    height: 25px;
+}
+
+.btnimg {
+	margin: 0px;
+	padding:0px;
+	height: 26px;
+	width: 77px;
+	border: 0px;
+	cursor:pointer;
+	background-image: url(../images/but23.png);
+	color: #FFFFFF;
+	line-height:26px;
+}
+
+.paco4 {
+    color: #006699;
+    padding-left: 10px;
+}

@@ -1,0 +1,83 @@
+/* CSS Document */
+body{
+  margin:0px;
+  padding:0px;
+  font-size:12px;
+  background:#316ca3;
+  }
+
+a {outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}
+
+ul,li,dd,dl,dt{
+   margin:0px;
+   padding:0px;
+   outline:none;  
+}
+#leftbg{
+   width:179px;
+   height:auto;
+   background:#417eb7;
+}
+#left img{
+   border:none;
+   float:right;
+   margin-top:240px;
+}
+#leftbg ul{
+   list-style:none;  
+}
+#leftbg ul li a{
+    display:block;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+	line-height:31px;
+	height:31px;
+	padding-left:34px;
+	font-size:12px;
+	background:url(../images/mainleft-1_17.jpg) no-repeat;
+	margin:1px;
+}
+#leftbg ul li a:hover{
+	background:url(../images/mainleft-1_1.jpg) no-repeat;
+}
+.select_1{
+	background:url(../images/mainleft-1_1.jpg) no-repeat;
+}
+
+#leftbg ul li a.maintenance{
+   background:url(../images/rechargeable_13.jpg) no-repeat;
+    outline:none;
+
+}
+#leftbg ul li a.maintenance:hover{
+   background:url(../images/rechargeable_10.jpg) no-repeat;
+}
+.maintenance{
+   background:url(../images/rechargeable_10.jpg) no-repeat;
+}
+#leftbg ul li a.maintenance_1{
+   background:url(../images/rechargeable_14.jpg) no-repeat;
+
+}
+#leftbg ul li a.maintenance_1:hover{
+   background:url(../images/rechargeable_1.jpg) no-repeat;
+}
+.maintenance_1{
+   background:url(../images/rechargeable_1.jpg) no-repeat;
+}
+#leftbg ul li a.menu_m{
+   background: url(../images/menu_li.jpg) repeat-x;
+   font-weight:normal; 
+  }
+ #leftbg ul li a.menu_m:hover{
+   background: url(../images/menu_li_1.jpg) repeat-x;
+   font-weight:bold;
+
+ }
+.a.menu_m
+{
+   background: url(../images/menu_li_1.jpg) repeat-x;
+   font-weight:bold;
+ }

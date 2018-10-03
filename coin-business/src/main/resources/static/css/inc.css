@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding:0px;
+	font-size: 12px;
+	font-family:宋体, Arial,Verdana, sans-serif, Helvetica;
+	background-color: #FFFFFF;
+}
+a {
+	text-decoration: none;
+}
+img{
+	border: 0px;	
+}
+.wind #in_title{
+	height:31px;
+	color: #000000;
+	line-height: 31px;
+	background-image: url(../images/title_bg1.jpg);
+	margin-bottom: 10px;
+	padding: 0px 5px;
+}
+.wind #in_title .bg_ico{
+	line-height: 31px;
+	background:url(../images/ico_pic1.jpg) no-repeat 0 10px; margin-left:5px; padding-left:20px;height: 31px;
+}
+.wind .bodtitle {
+	height: 28px;
+	margin-top: 5px;
+	padding: 0px 5px;
+}
+.wind .tabimg {
+	height: 29px;
+	width: 32px;
+	background-image: url(../images/ic22.png);
+	float: left;
+}
+.wind .tabfon {
+	font-size: 15px;
+	font-weight: bold;
+	color: #EBAD06;
+	float: left;
+	font-family: "微软雅黑";
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.wind .count_b{
+	padding: 5px;
+}
+.wind .tab_date_o{
+	border:1px dashed #CAD5EB;
+	width: 100%;
+}
+.wind .tab_date_o td{
+	line-height: 30px;
+	text-align: left;
+	padding-left: 10px;
+	color: #999999;
+	height: 30px;
+	border-right: 1px dashed #CAD5EB;
+	border-bottom: 1px dashed #CAD5EB;
+	background-color: #F2F7FF;
+}
+.wind .tab_date_o td span{
+	color: #545454;
+}
+.textinput1{
+	border-bottom:1px solid #CCCCCC;
+	border-left:1px solid #999;
+	border-right:1px solid #CCCCCC;
+	border-top:1px solid #999;;
+    background-color: #FFFFFF;
+	width: 120px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 2px;
+    font-size: 12px;
+    padding: 0px 3px;
+}
+.btnimg {
+	margin: 0px;
+	padding:0px;
+	height: 26px;
+	width: 77px;
+	border: 0px;
+	cursor:pointer;
+	background-image: url(../images/but23.png);
+	color: #FFFFFF;
+}

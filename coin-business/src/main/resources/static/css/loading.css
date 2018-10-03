@@ -1,0 +1,103 @@
+/* CSS Document */
+body{
+  background:url(../images/loading_bg_01.png) repeat-x #04366c;
+  text-align:center;
+}
+
+#content
+{
+  height: 100%;
+    margin: 0 auto;
+    width: 900px;
+}
+#main{
+   height: 270px;
+    margin: 20% auto;
+    width: 770px;
+}
+#title{
+   background:url(../images/loading_03.png) no-repeat;
+   width:343px;
+   height:34px;
+   margin:0 auto;
+   margin-bottom:24px;
+}
+#loadform{
+   background:url(../images/loadingform_03.png) no-repeat;
+   width:772px;
+   height:203px;
+}
+#left{
+    background: url("../images/loading_11.png") no-repeat scroll center center transparent;
+    float: left;
+    height: 180px;
+    margin-top: 12px;
+    width: 225px;
+   
+}
+
+#middle{
+  float: left;
+    margin-top: 30px;
+    width: 310px;
+}
+img{
+   margin-top:4px;
+   margin-left:-24px;
+}
+#middle em{
+   font-size:12px;
+   color:#FFFFFF;
+   font-style:normal;
+   float:left;
+   width:60px;
+   text-align:right;
+   line-height:28px;
+   margin-left:30px;
+   _margin-left:15px;
+}
+.textname{
+  margin:4px;
+  width:201px;
+  height:25px;
+  background:#ffffff;
+  border-left:1px solid #a3a3a3;
+  border-top:1px solid #a3a3a3;
+  border-right:1px solid #d8d8d8;
+  border-bottom:1px solid #d8d8d8;
+  float:left;
+}
+
+.textname_1{
+  margin:4px;
+  width:80px;
+  height:25px;
+  background:#ffffff;
+  border-left:1px solid #a3a3a3;
+  border-top:1px solid #a3a3a3;
+  border-right:1px solid #d8d8d8;
+  border-bottom:1px solid #d8d8d8;
+  float:left;
+}
+.buttonname{
+    background:url(../images/loading_14.png) no-repeat;
+	width:93px;
+	height:39px;
+	border:none;
+	cursor:pointer;
+	margin-top:10px;
+	float:left;
+	margin-left: 200px;
+}
+
+#right{
+   width:206px;
+   float:left;
+ }
+ p{
+     margin-top:46px;
+    color:#FFFFFF;
+	line-height:20px;
+	margin-left:24px;
+	text-align:left;
+ }

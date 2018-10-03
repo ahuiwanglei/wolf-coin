@@ -1,0 +1,1 @@
+<#assign webroot=request.getContextPath()>
